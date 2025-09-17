@@ -152,7 +152,7 @@ jobs:
 
   build-mac:
     if: github.event.inputs.platform == 'all' || contains(github.event.inputs.platform, 'mac')
-    runs-on: self-hosted
+    runs-on: macos-15
     defaults:
       run:
         working-directory: pkgsrc
