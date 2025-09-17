@@ -44,7 +44,7 @@ jobs:
         with:
           version: 10.12.1
 
-      - name: Checkout deephai/deepchat-ee
+      - name: Checkout Sources
         uses: actions/checkout@v4
         with:
           repository: deephai/deepchat-ee
@@ -112,7 +112,7 @@ jobs:
   #       with:
   #         version: 10.12.1
 
-  #     - name: Checkout deephai/deepchat-ee
+  #     - name: Checkout Source
   #       uses: actions/checkout@v4
   #       with:
   #         repository: deephai/deepchat-ee
@@ -177,7 +177,7 @@ jobs:
         with:
           version: 10.12.1
 
-      - name: Checkout deephai/deepchat-ee
+      - name: Checkout Source
         uses: actions/checkout@v4
         with:
           repository: deephai/deepchat-ee
